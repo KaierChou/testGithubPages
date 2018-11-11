@@ -1,7 +1,7 @@
 .startBG {
   width: 100%;
   height: 26.3rem;
-  background: url(/asset/images/startBG.png) no-repeat;
+  background: url(./asset/images/startBG.png) no-repeat;
   background-position: center;
   background-size: cover;
   position: fixed;
@@ -87,7 +87,7 @@
   display: inline-block;
   width: 1.19467rem;
   height: 1.19467rem;
-  background: url(/asset/images/top_listen.png) no-repeat;
+  background: url(./asset/images/top_listen.png) no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-transform: scale(0.9);
@@ -108,7 +108,7 @@
   display: inline-block;
   width: 1.19467rem;
   height: 1.19467rem;
-  background: url(/asset/images/musicPlaying.png) no-repeat;
+  background: url(./asset/images/musicPlaying.png) no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-transform: scale(0.8);
@@ -182,19 +182,19 @@
 }
 
 .discovery-container .classification .category > div.FM {
-  background: url(/asset/images/FM.png) no-repeat;
+  background: url(./asset/images/FM.png) no-repeat;
 }
 
 .discovery-container .classification .category > div.recommend {
-  background: url(/asset/images/tj.png) no-repeat;
+  background: url(./asset/images/tj.png) no-repeat;
 }
 
 .discovery-container .classification .category > div.music-list {
-  background: url(/asset/images/musicList.png) no-repeat;
+  background: url(./asset/images/musicList.png) no-repeat;
 }
 
 .discovery-container .classification .category > div.rank-list {
-  background: url(/asset/images/phb.png) no-repeat;
+  background: url(./asset/images/phb.png) no-repeat;
 }
 
 .discovery-container .discovery-list {
@@ -252,7 +252,7 @@
 }
 .videoPage {
   display: block;
-  background: url(/asset/images/videopage.png);
+  background: url(./asset/images/videopage.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@
 }
 .minePage {
   display: block;
-  background: url(/asset/images/minepage.png);
+  background: url(./asset/images/minepage.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@
 }
 .friendPage {
   display: block;
-  background: url(/asset/images/firend.png);
+  background: url(./asset/images/firend.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
