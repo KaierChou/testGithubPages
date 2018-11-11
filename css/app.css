@@ -1,0 +1,355 @@
+.startBG {
+  width: 100%;
+  height: 26.3rem;
+  background: url(/asset/images/startBG.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+.at-tabs__header {
+  background-color: #d43429 !important;
+  color: #fff !important;
+  padding-bottom: 10PX !important;
+}
+
+.at-tabs__underline {
+  background-color: #fff !important;
+}
+
+.at-tabs__item--active {
+  color: #fff !important;
+}
+
+.at-tabs__item {
+  color: #fff !important;
+}
+
+.at-tabs__item::after {
+  height: 0.128rem !important;
+  background-color: #fff !important;
+  border-radius: 6PX !important;
+  width: 20% !important;
+  left: 41% !important;
+}
+
+.at-tabs__body {
+  position: relativel !important;
+}
+
+.ouch .at-tabs__body {
+  position: relative !important;
+  top: 6.82667rem !important;
+  margin-bottom: 6.82667rem !important;
+}
+
+.t300 {
+  position: relative !important;
+  top: 6.82667rem !important;
+  margin-bottom: 6.82667rem !important;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+.discovery-container {
+  font-size: 0.29867rem;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 12.8rem;
+}
+
+.discovery-container .top-search-body {
+  box-sizing: border-box;
+  height: 2.13333rem;
+  background-color: #d43429;
+  padding: 0.34133rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.discovery-container .top-search-body .identify {
+  display: inline-block;
+  width: 1.19467rem;
+  height: 1.19467rem;
+  background: url(/asset/images/top_listen.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.discovery-container .top-search-body .search {
+  display: inline-block;
+  border-radius: 2rem;
+  width: 11rem !important;
+  height: 1.49333rem;
+  background-color: #DF625C;
+  text-indent: 1em;
+  color: #fff;
+}
+
+.discovery-container .top-search-body .music-playing {
+  display: inline-block;
+  width: 1.19467rem;
+  height: 1.19467rem;
+  background: url(/asset/images/musicPlaying.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.discovery-container .selfhoodSwiper {
+  position: absolute;
+  top: 4.5rem;
+  z-index: 5;
+  height: 6.7rem;
+  z-index: 999;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #D43429), color-stop(50%, #fff));
+  background: -webkit-linear-gradient(#D43429 70%, #fff 50%);
+  background: linear-gradient(#D43429 70%, #fff 50%);
+}
+
+.discovery-container .swiper__item {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.discovery-container .item-container {
+  box-sizing: border-box;
+  padding: 0.42667rem !important;
+}
+
+.discovery-container .item {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.32rem !important;
+}
+
+.discovery-container .classification {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 4.69333rem;
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.02133rem solid #F6F6F6;
+  margin-bottom: 0.85333rem;
+}
+
+.discovery-container .classification .category {
+  width: 2.77333rem;
+  height: 2.77333rem;
+  background-color: #D43429;
+  border-radius: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+
+.discovery-container .classification .category > div {
+  display: block;
+  width: 1.49333rem;
+  height: 1.49333rem;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.discovery-container .classification .category > div.FM {
+  background: url(/asset/images/FM.png) no-repeat;
+}
+
+.discovery-container .classification .category > div.recommend {
+  background: url(/asset/images/tj.png) no-repeat;
+}
+
+.discovery-container .classification .category > div.music-list {
+  background: url(/asset/images/musicList.png) no-repeat;
+}
+
+.discovery-container .classification .category > div.rank-list {
+  background: url(/asset/images/phb.png) no-repeat;
+}
+
+.discovery-container .discovery-list {
+  padding: 0 0.32rem;
+  box-sizing: border-box;
+  margin-bottom: 0.64rem;
+}
+
+.discovery-container .discovery-list .title {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 18PX;
+}
+
+.discovery-container .discovery-list .list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.discovery-container .discovery-list .list .list-item {
+  width: 116PX;
+  height: 155PX;
+  overflow: hidden;
+  margin-top: 0.42667rem;
+}
+
+.discovery-container .discovery-list .list .list-item .cover {
+  display: block;
+  width: 116PX;
+  height: 116PX;
+  background-color: #fff;
+}
+
+.discovery-container .discovery-list .list .list-item .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}
+
+.discovery-container .test {
+  padding-bottom: 30PX;
+}
+.videoPage {
+  display: block;
+  background: url(/asset/images/videopage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.minePage {
+  display: block;
+  background: url(/asset/images/minepage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.friendPage {
+  display: block;
+  background: url(/asset/images/firend.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.accountPage {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.TopSongPage {
+  width: 100%;
+  min-height: 10.66667rem;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 0.34133rem;
+}
+
+.music-list-item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 2.34667rem;
+  border-bottom: 1PX solid #EBEBEB;
+  box-sizing: border-box;
+  padding: 0.34133rem 0.53333rem;
+}
+
+.music-list-item .cover {
+  display: block;
+  width: 1.81333rem;
+  height: 1.81333rem;
+  border-radius: 0.21333rem;
+  margin-right: 0.32rem;
+}
+
+.music-list-item .info {
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  box-sizing: border-box;
+}
+
+.music-list-item .info .song {
+  overflow: hidden;
+  font-size: 16PX !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 10.88rem;
+}
+
+.music-list-item .info .singer {
+  color: #808080 !important;
+}
+.PlayerPage {
+  width: 100%;
+  min-height: 10.66667rem;
+  margin: 0 auto;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4.26667rem;
+}
