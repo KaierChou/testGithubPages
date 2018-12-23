@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox_ic_choose</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="10.9886403%" y1="10.754523%" x2="100%" y2="96.2993421%" id="linearGradient-1">
+            <stop stop-color="#2ADFEC" offset="0%"></stop>
+            <stop stop-color="#32CBE4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="男性主题方案" transform="translate(-322.000000, -205.000000)" fill="#32CBE4" fill-rule="nonzero">
+            <g id="基础套餐" transform="translate(0.000000, 187.000000)">
+                <g id="基础包" transform="translate(16.000000, 0.000000)">
+                    <g id="Group-2">
+                        <g id="Group-3">
+                            <path d="M315,36 C310.029437,36 306,31.9705627 306,27 C306,22.0294373 310.029437,18 315,18 C319.970563,18 324,22.0294373 324,27 C324,31.9705627 319.970563,36 315,36 Z M319.557257,24.1397812 C319.151894,23.7646821 318.519204,23.7892158 318.144105,24.1945787 L314.041489,28.6282031 L312.212829,26.7278009 C311.829888,26.3298371 311.196841,26.3176582 310.798877,26.7005985 C310.400913,27.0835388 310.388734,27.7165866 310.771674,28.1145504 L313.335134,30.778579 C313.348538,30.7925096 313.362344,30.8060486 313.376534,30.8191788 C313.781897,31.1942779 314.414586,31.1697442 314.789685,30.7643812 L319.612054,25.5529327 C319.987153,25.1475698 319.96262,24.5148803 319.557257,24.1397812 Z" id="ic_必选"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
